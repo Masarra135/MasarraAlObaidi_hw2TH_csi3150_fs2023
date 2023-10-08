@@ -19,4 +19,16 @@ body {
   background-color: bisque;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+#nabvar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar {
+  border: 1px solid brown;
+  margin-right: 5px;
 }
