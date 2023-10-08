@@ -1,0 +1,21 @@
+/*
+selector{
+    cssproperty : value;
+}
+*/
+
+body {
+  background-color: burlywood;
+}
+
+* {
+  border: 2;
+  margin: 2;
+  padding: 2;
+}
+
+/*style the navbar */
+#page_header {
+  background-color: blanchedalmond;
+  display: flex;
+}
