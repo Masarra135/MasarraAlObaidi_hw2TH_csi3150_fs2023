@@ -22,13 +22,15 @@ body {
   align-items: center;
 }
 
-#nabvar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#navbar {
+#navbar a {
   border: 1px solid brown;
   margin-right: 5px;
+  padding: 5px;
+  border-radius: 5px;
 }
