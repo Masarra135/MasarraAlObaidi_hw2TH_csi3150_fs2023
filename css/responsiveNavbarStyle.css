@@ -1,0 +1,41 @@
+/* design a responsive bar */
+
+/* reset all browser styling and  choose alt box model option*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: palevioletred;
+  color: #fff;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: larger;
+}
+
+/* styling logo */
+
+.logo {
+  font-size: 32 px;
+}
