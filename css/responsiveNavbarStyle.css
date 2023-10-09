@@ -64,3 +64,16 @@ input[type="checkbox"] {
   font-size: 24px;
   user-select: none;
 }
+
+/* Responsive design using css media queries */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: mediumpurple;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+}
