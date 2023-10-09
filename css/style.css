@@ -42,19 +42,21 @@ body {
 
 .page-heading {
   color: #4d243d;
-  text-align: center;
+  text-align: left;
   font-size: 36px;
-  margin-left: 500px;
+  margin-right: 500px;
+  top: 100px;
 }
 
 .page-subheading {
   color: #000000;
   text-align: end;
   font-size: 20 px;
-  margin-left: 500px;
+  margin-right: 500px;
 }
 
-.image container {
+.image_container {
   padding: 20px;
+  text-align: right;
   width: 100%;
 }
