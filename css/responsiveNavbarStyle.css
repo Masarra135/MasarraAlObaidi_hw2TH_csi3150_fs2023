@@ -39,3 +39,16 @@ li {
 .logo {
   font-size: 32 px;
 }
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+  padding: 5px 14px;
+}
+
+.menu :hover {
+  background-color: maroon;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
