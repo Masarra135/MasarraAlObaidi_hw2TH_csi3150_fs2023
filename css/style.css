@@ -8,6 +8,18 @@ body {
   background-color: #cac2b5;
 }
 
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
 * {
   border: 2;
   margin: 2;
@@ -18,14 +30,14 @@ body {
 }
 
 /*style the navbar */
-#page_header {
+/* #page_header {
   background-color: var(--main-color);
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; */
+/* } */
 
-#navbar {
+/* #navbar {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -37,9 +49,17 @@ body {
   padding: 8px;
   border-radius: 8px;
   text-decoration: none;
-  font-size: larger;
-}
+  font-size: larger; */
+/* } */
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: palevioletred;
+  color: #fff;
+}
 .page-heading {
   color: #4d243d;
   text-align: center;
@@ -58,4 +78,70 @@ body {
   padding: 20px;
   align-items: center;
   width: 100%;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: larger;
+}
+
+/* styling logo */
+
+.logo {
+  font-size: 32 px;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+
+.menu li:hover {
+  background-color: maroon;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+.menu li {
+  padding: 5px 14px;
+}
+
+/* Responsive styling of the navbar */
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.hamburger {
+  display: none;
+  font-size: 24px;
+  user-select: none;
+}
+
+/* Responsive design using css media queries */
+@media (max-width: 768px) {
+  .menu {
+    display: none;
+    position: absolute;
+    background-color: mediumpurple;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+  }
+
+  .menu :hover {
+    display: inline-block;
+    background-color: mintcream;
+    transition: 0.3s ease-in;
+  }
+
+  input[type="checkbox"]:checked ~ .menu {
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
