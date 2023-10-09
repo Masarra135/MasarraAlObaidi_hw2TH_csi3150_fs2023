@@ -5,18 +5,21 @@ selector{
 */
 
 body {
-  background-color: burlywood;
+  background-color: #cac2b5;
 }
 
 * {
   border: 2;
   margin: 2;
   padding: 2;
+
+  --main-color: #d5d6aa;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /*style the navbar */
 #page_header {
-  background-color: bisque;
+  background-color: var(--main-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,12 +28,33 @@ body {
 #navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #navbar a {
-  border: 1px solid brown;
-  margin-right: 5px;
-  padding: 5px;
-  border-radius: 5px;
+  border: 1px solid;
+  margin-right: 8px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.page-heading {
+  color: #4d243d;
+  text-align: center;
+  font-size: 36px;
+  margin-left: 500px;
+}
+
+.page-subheading {
+  color: #000000;
+  text-align: end;
+  font-size: 20 px;
+  margin-left: 500px;
+}
+
+.image container {
+  padding: 20px;
+  width: 100%;
 }
