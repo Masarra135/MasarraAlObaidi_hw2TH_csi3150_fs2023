@@ -42,10 +42,9 @@ body {
 
 .page-heading {
   color: #4d243d;
-  text-align: left;
+  text-align: center;
   font-size: 36px;
   margin-right: 500px;
-  top: 100px;
 }
 
 .page-subheading {
@@ -57,6 +56,6 @@ body {
 
 .image_container {
   padding: 20px;
-  text-align: right;
+  align-items: center;
   width: 100%;
 }
