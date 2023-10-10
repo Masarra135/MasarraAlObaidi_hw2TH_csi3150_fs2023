@@ -5,7 +5,7 @@ selector{
 */
 
 body {
-  background-color: #cac2b5;
+  background-color: #b19871;
 }
 
 body {
@@ -27,7 +27,7 @@ li {
   box-sizing: border-box;
 
   --main-color: #d5d6aa;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /*style the navbar */
@@ -55,18 +55,18 @@ li {
 
 .navbar {
   display: flex;
-  /* justify-content: space-between;
-  align-items: center; */
+  justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  background-color: palevioletred;
+  background-color: rgb(168, 83, 83);
   color: #fff;
   gap: 1em;
 }
 .page-heading {
-  color: #4d243d;
-  text-align: center;
+  color: #faf5f8;
+  /* text-align: left; */
   font-size: 36px;
-  margin-right: 500px;
+  margin-right: 200px;
 }
 
 .page-subheading {
@@ -126,7 +126,7 @@ input[type="checkbox"] {
   .menu {
     display: none;
     position: absolute;
-    background-color: mediumpurple;
+    background-color: burlywood;
     right: 0;
     left: 0;
     text-align: center;

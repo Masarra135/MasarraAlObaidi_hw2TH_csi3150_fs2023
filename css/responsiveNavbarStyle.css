@@ -73,7 +73,7 @@ input[type="checkbox"] {
   .menu {
     display: none;
     position: absolute;
-    background-color: mediumpurple;
+    background-color: burlywood;
     right: 0;
     left: 0;
     text-align: center;
