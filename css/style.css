@@ -21,9 +21,10 @@ li {
 }
 
 * {
-  border: 2;
-  margin: 2;
-  padding: 2;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
   --main-color: #d5d6aa;
   font-family: "Courier New", Courier, monospace;
@@ -54,11 +55,12 @@ li {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between;
+  align-items: center; */
   padding: 20px;
   background-color: palevioletred;
   color: #fff;
+  gap: 1em;
 }
 .page-heading {
   color: #4d243d;
